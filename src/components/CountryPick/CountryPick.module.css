@@ -1,0 +1,15 @@
+.Container{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5vh;
+   
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
