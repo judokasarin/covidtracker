@@ -8,7 +8,7 @@ const useStyles = makeStyles((theme) => ({
 headerText : {
         color : '#4361ee',
         textAlign: 'center',
-        margin:'10vh auto 1em',
+        margin:'10vh auto 0em',
         padding: '0 1em',
         maxWidth:'42rem',
         lineHeight: '1.2',
@@ -24,10 +24,10 @@ headerText : {
             transform: 'skewY(-11deg)',
             margin: '0em auto 10em',
             textAlign: 'center',
-            background: '#fff',
-            color: '#003',
+            
+            color: '#708090',
             fontWeight: '900',
-            padding: '0.5em',
+            padding: '0.1em',
             textTransform: 'uppercase',
     }
   }));
@@ -40,6 +40,9 @@ const Cover = () => {
     <div>
             <Typography variant='h1' color="text.secondary" className={classes.headerText} >
                 Covid-19 Tracker
+            </Typography>
+            <Typography variant='h2' color="text.secondary" className={classes.introText} >
+                By Arunesh Sarin 
             </Typography>
  </div>
      

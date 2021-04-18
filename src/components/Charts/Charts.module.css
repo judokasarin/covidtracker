@@ -1,4 +1,10 @@
 .container {
-    margin-top: 20vh;
+    position: relative;
+    bottom:0 ;
+    top: 50vh;
+    width: 80vw;
+    padding: 10vw;
+    height: auto;
+    
 
 }

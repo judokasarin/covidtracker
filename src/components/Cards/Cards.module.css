@@ -4,6 +4,7 @@
 
 .card{
     margin : 0 2vw !important;
+    max-width: 40vw;
     
 }
 
